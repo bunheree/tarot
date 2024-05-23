@@ -1,0 +1,704 @@
+[
+    {
+        "id": 0,
+        "name": "The Fool",
+        "mainMeaning": "Khởi đầu, ngây thơ, tự phát, tinh thần tự do",
+        "reverseMeaning": "Kiềm chế, liều lĩnh, mạo hiểm",
+        "description": "The Fool đại diện cho khởi đầu mới, tin vào tương lai, thiếu kinh nghiệm, không biết điều gì sẽ xảy ra, may mắn người mới bắt đầu, ứng biến, và tin vào vũ trụ.",
+        "src": "/the-fool.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 1,
+        "name": "The Magician",
+        "mainMeaning": "Thể hiện, tài nguyên, quyền lực, hành động cảm hứng",
+        "reverseMeaning": "Lừa đảo, kế hoạch kém, tài năng chưa được khai thác",
+        "description": "The Magician biểu thị khả năng sử dụng tài năng, sáng tạo, và tài nguyên của mình để đạt được mục tiêu. Đó là lá bài của sáng kiến, tự tin và hành động.",
+        "src": "/the-magician.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 2,
+        "name": "The High Priestess",
+        "mainMeaning": "Trực giác, kiến thức thiêng liêng, nữ tính thiêng liêng, tâm thức dưới",
+        "reverseMeaning": "Bí mật, mất kết nối với trực giác, rút lui, im lặng",
+        "description": "The High Priestess đại diện cho trí tuệ, sự bình yên, kiến thức, và hiểu biết. Cô ấy là người bảo vệ của tiềm thức, chỉ cách đi sâu vào bản thân tâm linh.",
+        "src": "/the-high-priestess.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 3,
+        "name": "The Empress",
+        "mainMeaning": "Nữ tính, sắc đẹp, thiên nhiên, nuôi dưỡng, thịnh vượng",
+        "reverseMeaning": "Sáng tạo bị chặn, phụ thuộc vào người khác",
+        "description": "The Empress là biểu tượng của sự sinh sản, sắc đẹp và thịnh vượng. Cô ấy biểu thị sự phát triển, nuôi dưỡng và kết nối với thiên nhiên.",
+        "src": "/the-empress.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 4,
+        "name": "The Emperor",
+        "mainMeaning": "Quyền lực, sự thành lập, cấu trúc, hình mẫu người cha",
+        "reverseMeaning": "Áp bức, kiểm soát quá mức, thiếu kỷ luật, cứng nhắc",
+        "description": "The Emperor đại diện cho quyền lực, sự thành lập và cấu trúc cung cấp sự ổn định và an ninh. Ông ấy là hình mẫu người cha, hiện thân của khái niệm luật pháp và trật tự.",
+        "src": "/the-emperor.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 5,
+        "name": "The Hierophant",
+        "mainMeaning": "Trí tuệ tâm linh, tín ngưỡng tôn giáo, sự tuân thủ, truyền thống, tổ chức",
+        "reverseMeaning": "Niềm tin cá nhân, tự do, thách thức hiện trạng",
+        "description": "The Hierophant biểu thị trí tuệ tâm linh, giá trị truyền thống và tổ chức. Ông ấy đại diện cho mối liên hệ giữa thế giới tâm linh và thế giới hằng ngày.",
+        "src": "/the-hierophant.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 6,
+        "name": "The Lovers",
+        "mainMeaning": "Tình yêu, sự hài hòa, mối quan hệ, sự lựa chọn",
+        "reverseMeaning": "Mâu thuẫn, chia tay, mất cân bằng",
+        "description": "The Lovers biểu thị tình yêu, sự hài hòa, mối quan hệ và sự lựa chọn. Lá bài này đại diện cho mối liên hệ sâu sắc và sự hợp tác giữa hai người.",
+        "src": "/the-lovers.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 7,
+        "name": "The Chariot",
+        "mainMeaning": "Quyết tâm, hành động, định hướng, kiểm soát",
+        "reverseMeaning": "Thiếu kiểm soát, thiếu định hướng, thất bại",
+        "description": "The Chariot biểu thị quyết tâm, hành động và sự định hướng. Nó đại diện cho sự kiểm soát và quyền lực cá nhân để đạt được mục tiêu.",
+        "src": "/the-chariot.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 8,
+        "name": "Strength",
+        "mainMeaning": "Sức mạnh, can đảm, lòng kiên nhẫn, sự từ bi",
+        "reverseMeaning": "Sợ hãi, yếu đuối, thiếu tự tin",
+        "description": "Strength biểu thị sức mạnh, can đảm, và lòng kiên nhẫn. Lá bài này đại diện cho khả năng vượt qua khó khăn với sự từ bi và lòng nhân ái.",
+        "src": "/strength.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 9,
+        "name": "The Hermit",
+        "mainMeaning": "Tự tìm hiểu, trí tuệ nội tại, sự cô độc, hướng dẫn",
+        "reverseMeaning": "Cô đơn, biệt lập, trốn tránh thực tại",
+        "description": "The Hermit biểu thị sự tự tìm hiểu, trí tuệ nội tại và sự cô độc. Lá bài này đại diện cho việc rút lui vào bản thân để tìm kiếm sự hướng dẫn và sự thật.",
+        "src": "/the-hermit.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 10,
+        "name": "Wheel of Fortune",
+        "mainMeaning": "May mắn, định mệnh, sự thay đổi, cơ hội",
+        "reverseMeaning": "Xui xẻo, sự thay đổi không mong muốn, kháng cự",
+        "description": "Wheel of Fortune biểu thị sự thay đổi, may mắn và định mệnh. Lá bài này đại diện cho chu kỳ của cuộc sống và cơ hội mới.",
+        "src": "/wheel-of-fortune.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 11,
+        "name": "Justice",
+        "mainMeaning": "Công lý, sự thật, cân bằng, quyết định đúng đắn",
+        "reverseMeaning": "Bất công, thiếu cân bằng, quyết định sai lầm",
+        "description": "Justice biểu thị công lý, sự thật và sự cân bằng. Lá bài này đại diện cho sự phán xét công bằng và quyết định dựa trên sự thật.",
+        "src": "/justice.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 12,
+        "name": "The Hanged Man",
+        "mainMeaning": "Hi sinh, nhìn nhận mới, chấp nhận, buông bỏ",
+        "reverseMeaning": "Cứng nhắc, không muốn thay đổi, thiếu quyết đoán",
+        "description": "The Hanged Man biểu thị sự hi sinh, nhìn nhận mới và chấp nhận. Lá bài này đại diện cho việc buông bỏ và đón nhận sự thay đổi.",
+        "src": "/the-hanged-man.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 13,
+        "name": "Death",
+        "mainMeaning": "Kết thúc, chuyển đổi, sự thay đổi, sự tái sinh",
+        "reverseMeaning": "Kháng cự, không chấp nhận thay đổi, sự trì hoãn",
+        "description": "Death biểu thị sự kết thúc, chuyển đổi và sự thay đổi. Lá bài này đại diện cho sự tái sinh và cơ hội mới sau sự kết thúc.",
+        "src": "/death.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 14,
+        "name": "Temperance",
+        "mainMeaning": "Cân bằng, điều độ, kiên nhẫn, hòa hợp",
+        "reverseMeaning": "Mất cân bằng, thiếu điều độ, không kiên nhẫn",
+        "description": "Temperance biểu thị sự cân bằng, điều độ và kiên nhẫn. Lá bài này đại diện cho sự hòa hợp và khả năng điều chỉnh để đạt được sự hài hòa.",
+        "src": "/temperance.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 15,
+        "name": "The Devil",
+        "mainMeaning": "Sự ám ảnh, hạn chế, cám dỗ, vật chất",
+        "reverseMeaning": "Giải thoát, tự do, khám phá bản thân",
+        "description": "The Devil biểu thị sự ám ảnh, hạn chế và cám dỗ. Lá bài này đại diện cho sự ràng buộc với vật chất và sự kiểm soát.",
+        "src": "/the-devil.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 16,
+        "name": "The Tower",
+        "mainMeaning": "Thay đổi đột ngột, sụp đổ, khủng hoảng, giải thoát",
+        "reverseMeaning": "Kháng cự thay đổi, sợ hãi, trì hoãn",
+        "description": "The Tower biểu thị sự thay đổi đột ngột, sụp đổ và khủng hoảng. Lá bài này đại diện cho sự giải thoát từ những tình huống không bền vững.",
+        "src": "/the-tower.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 17,
+        "name": "The Star",
+        "mainMeaning": "Hy vọng, cảm hứng, sự yên bình, lòng tin",
+        "reverseMeaning": "Mất hy vọng, thiếu tự tin, thất vọng",
+        "description": "The Star biểu thị hy vọng, cảm hứng và sự yên bình. Lá bài này đại diện cho lòng tin và sự hướng dẫn từ tinh thần.",
+        "src": "/the-star.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 18,
+        "name": "The Moon",
+        "mainMeaning": "Ảo ảnh, trực giác, sự không rõ ràng, tiềm thức",
+        "reverseMeaning": "Làm sáng tỏ, nhìn nhận rõ ràng, nhận thức",
+        "description": "The Moon biểu thị ảo ảnh, trực giác và sự không rõ ràng. Lá bài này đại diện cho tiềm thức và những điều chưa được nhìn nhận rõ ràng.",
+        "src": "/the-moon.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 19,
+        "name": "The Sun",
+        "mainMeaning": "Thành công, hạnh phúc, tích cực, năng lượng",
+        "reverseMeaning": "U ám, thất bại, tiêu cực, mệt mỏi",
+        "description": "The Sun biểu thị thành công, hạnh phúc và tích cực. Lá bài này đại diện cho năng lượng và sự tỏa sáng trong cuộc sống.",
+        "src": "/the-sun.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 20,
+        "name": "Judgement",
+        "mainMeaning": "Phán xét, tái sinh, sự thức tỉnh, quyết định",
+        "reverseMeaning": "Phán xét sai lầm, thiếu sự thức tỉnh, sự trì hoãn",
+        "description": "Judgement biểu thị sự phán xét, tái sinh và sự thức tỉnh. Lá bài này đại diện cho quyết định và sự nhận thức mới.",
+        "src": "/judgement.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 21,
+        "name": "The World",
+        "mainMeaning": "Hoàn thành, thành tựu, sự viên mãn, hành trình",
+        "reverseMeaning": "Chưa hoàn thành, thiếu thành tựu, sự ngắt quãng",
+        "description": "The World biểu thị sự hoàn thành, thành tựu và sự viên mãn. Lá bài này đại diện cho hành trình và kết thúc của một chu kỳ.",
+        "src": "/the-world.png",
+        "type": "major-arcana"
+    },
+    {
+        "id": 22,
+        "name": "Ace of Wands",
+        "mainMeaning": "Cảm hứng, tiềm năng, sự sáng tạo, cơ hội mới",
+        "reverseMeaning": "Thiếu cảm hứng, thất bại, sự trì hoãn",
+        "description": "Ace of Wands biểu thị cảm hứng, tiềm năng và sự sáng tạo. Lá bài này đại diện cho cơ hội mới và sự khởi đầu.",
+        "src": "/ace-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 23,
+        "name": "Two of Wands",
+        "mainMeaning": "Kế hoạch, khám phá, sự quyết đoán, mở rộng",
+        "reverseMeaning": "Sợ thay đổi, thiếu kế hoạch, hạn chế",
+        "description": "Two of Wands biểu thị kế hoạch, khám phá và sự quyết đoán. Lá bài này đại diện cho việc mở rộng và sự tiến bộ.",
+        "src": "/two-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 24,
+        "name": "Three of Wands",
+        "mainMeaning": "Kỳ vọng, sự mở rộng, khám phá, cơ hội",
+        "reverseMeaning": "Trì hoãn, thất vọng, mất cơ hội",
+        "description": "Three of Wands biểu thị kỳ vọng, sự mở rộng và khám phá. Lá bài này đại diện cho cơ hội và sự tiến triển trong kế hoạch.",
+        "src": "/three-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 25,
+        "name": "Four of Wands",
+        "mainMeaning": "Lễ kỷ niệm, sự đoàn kết, hạnh phúc, thành tựu",
+        "reverseMeaning": "Mất đoàn kết, thiếu hạnh phúc, trì hoãn",
+        "description": "Four of Wands biểu thị lễ kỷ niệm, sự đoàn kết và hạnh phúc. Lá bài này đại diện cho thành tựu và sự hoàn thành.",
+        "src": "/four-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 26,
+        "name": "Five of Wands",
+        "mainMeaning": "Xung đột, thách thức, cạnh tranh, sự bất đồng",
+        "reverseMeaning": "Giải quyết, hòa giải, hợp tác",
+        "description": "Five of Wands biểu thị xung đột, thách thức và cạnh tranh. Lá bài này đại diện cho sự bất đồng và khó khăn trong việc đạt được mục tiêu.",
+        "src": "/five-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 27,
+        "name": "Six of Wands",
+        "mainMeaning": "Chiến thắng, thành công, sự công nhận, tự hào",
+        "reverseMeaning": "Thất bại, thiếu công nhận, kiêu ngạo",
+        "description": "Six of Wands biểu thị chiến thắng, thành công và sự công nhận. Lá bài này đại diện cho niềm tự hào và sự đạt được mục tiêu.",
+        "src": "/six-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 28,
+        "name": "Seven of Wands",
+        "mainMeaning": "Bảo vệ, đấu tranh, kiên định, vượt qua thử thách",
+        "reverseMeaning": "Mất cân bằng, thiếu kiên định, thất bại",
+        "description": "Seven of Wands biểu thị bảo vệ, đấu tranh và kiên định. Lá bài này đại diện cho sự vượt qua thử thách và bảo vệ quan điểm của mình.",
+        "src": "/seven-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 29,
+        "name": "Eight of Wands",
+        "mainMeaning": "Chuyển động, tốc độ, tiến triển, thông tin",
+        "reverseMeaning": "Trì hoãn, mất tập trung, thiếu tiến triển",
+        "description": "Eight of Wands biểu thị chuyển động, tốc độ và tiến triển. Lá bài này đại diện cho sự tiến triển nhanh chóng và thông tin.",
+        "src": "/eight-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 30,
+        "name": "Nine of Wands",
+        "mainMeaning": "Kiên cường, phòng thủ, kiên nhẫn, quyết tâm",
+        "reverseMeaning": "Mệt mỏi, mất kiên nhẫn, thất vọng",
+        "description": "Nine of Wands biểu thị kiên cường, phòng thủ và kiên nhẫn. Lá bài này đại diện cho sự quyết tâm và bảo vệ mục tiêu của mình.",
+        "src": "/nine-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 31,
+        "name": "Ten of Wands",
+        "mainMeaning": "Gánh nặng, trách nhiệm, áp lực, căng thẳng",
+        "reverseMeaning": "Giảm bớt, giải phóng, tránh trách nhiệm",
+        "description": "Ten of Wands biểu thị gánh nặng, trách nhiệm và áp lực. Lá bài này đại diện cho sự căng thẳng và gánh nặng trong cuộc sống.",
+        "src": "/ten-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 32,
+        "name": "Page of Wands",
+        "mainMeaning": "Khám phá, sự sáng tạo, năng lượng, cảm hứng",
+        "reverseMeaning": "Thiếu sáng tạo, sự trì hoãn, thiếu động lực",
+        "description": "Page of Wands biểu thị khám phá, sự sáng tạo và năng lượng. Lá bài này đại diện cho cảm hứng và sự bắt đầu mới.",
+        "src": "/page-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 33,
+        "name": "Knight of Wands",
+        "mainMeaning": "Đam mê, nhiệt huyết, hành động, phiêu lưu",
+        "reverseMeaning": "Liều lĩnh, thiếu kế hoạch, nông nổi",
+        "description": "Knight of Wands biểu thị đam mê, nhiệt huyết và hành động. Lá bài này đại diện cho sự phiêu lưu và khát vọng mạnh mẽ.",
+        "src": "/knight-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 34,
+        "name": "Queen of Wands",
+        "mainMeaning": "Tự tin, sự độc lập, sự quyết đoán, quyến rũ",
+        "reverseMeaning": "Thiếu tự tin, phụ thuộc, sự kiêu ngạo",
+        "description": "Queen of Wands biểu thị tự tin, sự độc lập và sự quyết đoán. Lá bài này đại diện cho sự quyến rũ và sức mạnh của nữ giới.",
+        "src": "/queen-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 35,
+        "name": "King of Wands",
+        "mainMeaning": "Lãnh đạo, tầm nhìn, sự quyết đoán, cảm hứng",
+        "reverseMeaning": "Kiêu ngạo, độc đoán, thiếu quyết đoán",
+        "description": "King of Wands biểu thị lãnh đạo, tầm nhìn và sự quyết đoán. Lá bài này đại diện cho cảm hứng và sự dẫn dắt.",
+        "src": "/king-of-wands.png",
+        "type": "wands"
+    },
+    {
+        "id": 36,
+        "name": "Ace of Cups",
+        "mainMeaning": "Tình yêu, cảm xúc, sự khởi đầu mới, tràn đầy",
+        "reverseMeaning": "Trống rỗng, thất vọng, cảm xúc bị chặn",
+        "description": "Ace of Cups biểu thị tình yêu, cảm xúc và sự khởi đầu mới. Lá bài này đại diện cho cảm xúc tràn đầy và tình cảm sâu sắc.",
+        "src": "/ace-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 37,
+        "name": "Two of Cups",
+        "mainMeaning": "Hợp tác, tình yêu, mối quan hệ, sự hòa hợp",
+        "reverseMeaning": "Mất cân bằng, mâu thuẫn, sự chia ly",
+        "description": "Two of Cups biểu thị hợp tác, tình yêu và mối quan hệ. Lá bài này đại diện cho sự hòa hợp và kết nối giữa hai người.",
+        "src": "/two-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 38,
+        "name": "Three of Cups",
+        "mainMeaning": "Lễ hội, tình bạn, sự hỗ trợ, niềm vui",
+        "reverseMeaning": "Cô đơn, xa lánh, mất kết nối",
+        "description": "Three of Cups biểu thị lễ hội, tình bạn và sự hỗ trợ. Lá bài này đại diện cho niềm vui và sự kết nối trong cộng đồng.",
+        "src": "/three-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 39,
+        "name": "Four of Cups",
+        "mainMeaning": "Suy ngẫm, chán nản, bỏ lỡ cơ hội, không hài lòng",
+        "reverseMeaning": "Tỉnh ngộ, cơ hội mới, sự đánh thức",
+        "description": "Four of Cups biểu thị suy ngẫm, chán nản và bỏ lỡ cơ hội. Lá bài này đại diện cho sự không hài lòng và cảm giác bế tắc.",
+        "src": "/four-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 40,
+        "name": "Five of Cups",
+        "mainMeaning": "Mất mát, đau buồn, thất vọng, tiếc nuối",
+        "reverseMeaning": "Chấp nhận, hồi phục, tìm thấy hy vọng mới",
+        "description": "Five of Cups biểu thị mất mát, đau buồn và thất vọng. Lá bài này đại diện cho tiếc nuối và cảm giác mất mát.",
+        "src": "/five-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 41,
+        "name": "Six of Cups",
+        "mainMeaning": "Hoài niệm, quá khứ, sự ngây thơ, kỷ niệm",
+        "reverseMeaning": "Quá khứ cản trở, khó tiến lên, sự phụ thuộc",
+        "description": "Six of Cups biểu thị hoài niệm, quá khứ và sự ngây thơ. Lá bài này đại diện cho kỷ niệm và sự kết nối với quá khứ.",
+        "src": "/six-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 42,
+        "name": "Seven of Cups",
+        "mainMeaning": "Ảo tưởng, lựa chọn, tưởng tượng, cơ hội",
+        "reverseMeaning": "Nhận thức rõ ràng, quyết định, thực tế",
+        "description": "Seven of Cups biểu thị ảo tưởng, lựa chọn và tưởng tượng. Lá bài này đại diện cho cơ hội và sự tưởng tượng.",
+        "src": "/seven-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 43,
+        "name": "Eight of Cups",
+        "mainMeaning": "Từ bỏ, tìm kiếm, sự thay đổi, đi xa",
+        "reverseMeaning": "Trì hoãn, sợ thay đổi, sự lạc hướng",
+        "description": "Eight of Cups biểu thị từ bỏ, tìm kiếm và sự thay đổi. Lá bài này đại diện cho việc đi xa và tìm kiếm điều mới mẻ.",
+        "src": "/eight-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 44,
+        "name": "Nine of Cups",
+        "mainMeaning": "Sự hài lòng, niềm vui, ước mơ thành hiện thực, thành tựu",
+        "reverseMeaning": "Không hài lòng, ảo tưởng, thất vọng",
+        "description": "Nine of Cups biểu thị sự hài lòng, niềm vui và ước mơ thành hiện thực. Lá bài này đại diện cho thành tựu và cảm giác hạnh phúc.",
+        "src": "/nine-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 45,
+        "name": "Ten of Cups",
+        "mainMeaning": "Hạnh phúc gia đình, sự viên mãn, tình yêu, hòa hợp",
+        "reverseMeaning": "Mất hòa hợp, rạn nứt gia đình, bất hạnh",
+        "description": "Ten of Cups biểu thị hạnh phúc gia đình, sự viên mãn và tình yêu. Lá bài này đại diện cho hòa hợp và cảm giác hạnh phúc trong gia đình.",
+        "src": "/ten-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 46,
+        "name": "Page of Cups",
+        "mainMeaning": "Cảm hứng, sự ngây thơ, tình cảm, sáng tạo",
+        "reverseMeaning": "Thiếu cảm hứng, sự không thực tế, tình cảm bị chặn",
+        "description": "Page of Cups biểu thị cảm hứng, sự ngây thơ và tình cảm. Lá bài này đại diện cho sáng tạo và sự bắt đầu mới trong tình cảm.",
+        "src": "/page-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 47,
+        "name": "Knight of Cups",
+        "mainMeaning": "Lãng mạn, lý tưởng, sự quyến rũ, cảm xúc",
+        "reverseMeaning": "Không thực tế, mơ mộng, không chân thành",
+        "description": "Knight of Cups biểu thị lãng mạn, lý tưởng và sự quyến rũ. Lá bài này đại diện cho cảm xúc và sự tìm kiếm tình yêu.",
+        "src": "/knight-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 48,
+        "name": "Queen of Cups",
+        "mainMeaning": "Tình cảm, trực giác, sự nhạy cảm, chăm sóc",
+        "reverseMeaning": "Quá nhạy cảm, dễ bị tổn thương, cảm xúc không ổn định",
+        "description": "Queen of Cups biểu thị tình cảm, trực giác và sự nhạy cảm. Lá bài này đại diện cho sự chăm sóc và lòng nhân ái.",
+        "src": "/queen-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 49,
+        "name": "King of Cups",
+        "mainMeaning": "Điều khiển cảm xúc, cân bằng, trí tuệ, lòng nhân ái",
+        "reverseMeaning": "Thiếu cân bằng, áp lực, kiểm soát cảm xúc",
+        "description": "King of Cups biểu thị điều khiển cảm xúc, cân bằng và trí tuệ. Lá bài này đại diện cho lòng nhân ái và sự kiểm soát cảm xúc.",
+        "src": "/king-of-cups.png",
+        "type": "cups"
+    },
+    {
+        "id": 50,
+        "name": "Ace of Swords",
+        "mainMeaning": "Sự thật, trí tuệ, sự rõ ràng, quyết định",
+        "reverseMeaning": "Nhầm lẫn, thiếu quyết đoán, mất định hướng",
+        "description": "Ace of Swords biểu thị sự thật, trí tuệ và sự rõ ràng. Lá bài này đại diện cho quyết định và sự sáng suốt.",
+        "src": "/ace-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 51,
+        "name": "Two of Swords",
+        "mainMeaning": "Bế tắc, sự lựa chọn, đối lập, không chắc chắn",
+        "reverseMeaning": "Quyết định, sự rõ ràng, sự nhận thức",
+        "description": "Two of Swords biểu thị bế tắc, sự lựa chọn và đối lập. Lá bài này đại diện cho sự không chắc chắn và khó khăn trong quyết định.",
+        "src": "/two-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 52,
+        "name": "Three of Swords",
+        "mainMeaning": "Đau lòng, tổn thương, sự phản bội, buồn bã",
+        "reverseMeaning": "Chữa lành, sự tha thứ, sự phục hồi",
+        "description": "Three of Swords biểu thị đau lòng, tổn thương và sự phản bội. Lá bài này đại diện cho buồn bã và cảm giác mất mát.",
+        "src": "/three-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 53,
+        "name": "Four of Swords",
+        "mainMeaning": "Nghỉ ngơi, phục hồi, suy ngẫm, tạm dừng",
+        "reverseMeaning": "Thiếu nghỉ ngơi, căng thẳng, mệt mỏi",
+        "description": "Four of Swords biểu thị nghỉ ngơi, phục hồi và suy ngẫm. Lá bài này đại diện cho tạm dừng và sự bình tĩnh.",
+        "src": "/four-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 54,
+        "name": "Five of Swords",
+        "mainMeaning": "Xung đột, thua cuộc, căng thẳng, sự thất vọng",
+        "reverseMeaning": "Hòa giải, sự tha thứ, chấm dứt xung đột",
+        "description": "Five of Swords biểu thị xung đột, thua cuộc và căng thẳng. Lá bài này đại diện cho sự thất vọng và khó khăn trong mối quan hệ.",
+        "src": "/five-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 55,
+        "name": "Six of Swords",
+        "mainMeaning": "Chuyển đổi, di chuyển, hy vọng mới, sự thay đổi",
+        "reverseMeaning": "Trì hoãn, khó khăn, sự gián đoạn",
+        "description": "Six of Swords biểu thị chuyển đổi, di chuyển và hy vọng mới. Lá bài này đại diện cho sự thay đổi và tiến lên phía trước.",
+        "src": "/six-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 56,
+        "name": "Seven of Swords",
+        "mainMeaning": "Lừa dối, chiến lược, sự bí mật, gian lận",
+        "reverseMeaning": "Trung thực, sự rõ ràng, thiếu chiến lược",
+        "description": "Seven of Swords biểu thị lừa dối, chiến lược và sự bí mật. Lá bài này đại diện cho gian lận và sự không trung thực.",
+        "src": "/seven-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 57,
+        "name": "Eight of Swords",
+        "mainMeaning": "Bị mắc kẹt, hạn chế, cảm giác bị giam cầm, khó khăn",
+        "reverseMeaning": "Giải phóng, sự giải thoát, vượt qua khó khăn",
+        "description": "Eight of Swords biểu thị bị mắc kẹt, hạn chế và cảm giác bị giam cầm. Lá bài này đại diện cho khó khăn và sự hạn chế trong cuộc sống.",
+        "src": "/eight-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 58,
+        "name": "Nine of Swords",
+        "mainMeaning": "Lo lắng, căng thẳng, ác mộng, sự sợ hãi",
+        "reverseMeaning": "Giải tỏa lo lắng, tìm thấy hy vọng, vượt qua nỗi sợ",
+        "description": "Nine of Swords biểu thị lo lắng, căng thẳng và ác mộng. Lá bài này đại diện cho sự sợ hãi và cảm giác bất an.",
+        "src": "/nine-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 59,
+        "name": "Ten of Swords",
+        "mainMeaning": "Kết thúc, tổn thương, sự phản bội, đau đớn",
+        "reverseMeaning": "Phục hồi, sự tái sinh, hy vọng mới",
+        "description": "Ten of Swords biểu thị kết thúc, tổn thương và sự phản bội. Lá bài này đại diện cho đau đớn và cảm giác mất mát.",
+        "src": "/ten-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 60,
+        "name": "Page of Swords",
+        "mainMeaning": "Tò mò, thông minh, sự khám phá, sự quyết đoán",
+        "reverseMeaning": "Thiếu sự khám phá, do dự, sự ngờ vực",
+        "description": "Page of Swords biểu thị tò mò, thông minh và sự khám phá. Lá bài này đại diện cho sự quyết đoán và tinh thần khám phá.",
+        "src": "/page-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 61,
+        "name": "Knight of Swords",
+        "mainMeaning": "Quyết đoán, năng động, sự kiên định, hành động",
+        "reverseMeaning": "Thiếu quyết đoán, không kiểm soát, sự bốc đồng",
+        "description": "Knight of Swords biểu thị quyết đoán, năng động và sự kiên định. Lá bài này đại diện cho hành động và sự quyết tâm.",
+        "src": "/knight-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 62,
+        "name": "Queen of Swords",
+        "mainMeaning": "Trí tuệ, sự độc lập, sự sáng suốt, sự rõ ràng",
+        "reverseMeaning": "Lạnh lùng, thiếu cảm xúc, cứng nhắc",
+        "description": "Queen of Swords biểu thị trí tuệ, sự độc lập và sự sáng suốt. Lá bài này đại diện cho sự rõ ràng và khả năng phân tích.",
+        "src": "/queen-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 63,
+        "name": "King of Swords",
+        "mainMeaning": "Trí tuệ, sự lãnh đạo, sự phân tích, công lý",
+        "reverseMeaning": "Thiếu công bằng, lạm quyền, độc đoán",
+        "description": "King of Swords biểu thị trí tuệ, sự lãnh đạo và sự phân tích. Lá bài này đại diện cho công lý và khả năng lãnh đạo.",
+        "src": "/king-of-swords.png",
+        "type": "swords"
+    },
+    {
+        "id": 64,
+        "name": "Ace of Pentacles",
+        "mainMeaning": "Khởi đầu mới, cơ hội, tiềm năng, sự thịnh vượng",
+        "reverseMeaning": "Mất cơ hội, thất bại, hạn chế tài chính",
+        "description": "Ace of Pentacles biểu thị khởi đầu mới, cơ hội và tiềm năng. Lá bài này đại diện cho sự thịnh vượng và cơ hội tài chính.",
+        "src": "/ace-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 65,
+        "name": "Two of Pentacles",
+        "mainMeaning": "Cân bằng, sự linh hoạt, quản lý, sự đa nhiệm",
+        "reverseMeaning": "Mất cân bằng, thiếu quản lý, sự bối rối",
+        "description": "Two of Pentacles biểu thị cân bằng, sự linh hoạt và quản lý. Lá bài này đại diện cho sự đa nhiệm và khả năng quản lý.",
+        "src": "/two-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 66,
+        "name": "Three of Pentacles",
+        "mainMeaning": "Hợp tác, làm việc nhóm, kỹ năng, sự công nhận",
+        "reverseMeaning": "Thiếu hợp tác, công việc kém chất lượng, thiếu sự công nhận",
+        "description": "Three of Pentacles biểu thị hợp tác, làm việc nhóm và kỹ năng. Lá bài này đại diện cho sự công nhận và thành công trong công việc.",
+        "src": "/three-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 67,
+        "name": "Four of Pentacles",
+        "mainMeaning": "Kiểm soát, bảo vệ, sự ổn định, tích lũy",
+        "reverseMeaning": "Thiếu kiểm soát, sự bảo vệ quá mức, sự tiêu xài",
+        "description": "Four of Pentacles biểu thị kiểm soát, bảo vệ và sự ổn định. Lá bài này đại diện cho sự tích lũy và bảo vệ tài sản.",
+        "src": "/four-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 68,
+        "name": "Five of Pentacles",
+        "mainMeaning": "Khó khăn, mất mát, sự nghèo khó, thất bại",
+        "reverseMeaning": "Phục hồi, sự trợ giúp, hy vọng mới",
+        "description": "Five of Pentacles biểu thị khó khăn, mất mát và sự nghèo khó. Lá bài này đại diện cho thất bại và cảm giác thiếu thốn.",
+        "src": "/five-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 69,
+        "name": "Six of Pentacles",
+        "mainMeaning": "Sự giúp đỡ, hào phóng, sự cân bằng, chia sẻ",
+        "reverseMeaning": "Thiếu sự giúp đỡ, không hào phóng, sự mất cân bằng",
+        "description": "Six of Pentacles biểu thị sự giúp đỡ, hào phóng và sự cân bằng. Lá bài này đại diện cho sự chia sẻ và cân bằng tài chính.",
+        "src": "/six-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 70,
+        "name": "Seven of Pentacles",
+        "mainMeaning": "Kiên nhẫn, đánh giá, sự chờ đợi, đầu tư",
+        "reverseMeaning": "Thiếu kiên nhẫn, sự thất vọng, quyết định sai lầm",
+        "description": "Seven of Pentacles biểu thị kiên nhẫn, đánh giá và sự chờ đợi. Lá bài này đại diện cho đầu tư và sự kiên nhẫn trong công việc.",
+        "src": "/seven-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 71,
+        "name": "Eight of Pentacles",
+        "mainMeaning": "Làm việc chăm chỉ, sự học hỏi, kỹ năng, sự hoàn thiện",
+        "reverseMeaning": "Lười biếng, thiếu nỗ lực, công việc kém chất lượng",
+        "description": "Eight of Pentacles biểu thị làm việc chăm chỉ, sự học hỏi và kỹ năng. Lá bài này đại diện cho sự hoàn thiện và nỗ lực trong công việc.",
+        "src": "/eight-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 72,
+        "name": "Nine of Pentacles",
+        "mainMeaning": "Sự độc lập, thịnh vượng, tự hào, thành công",
+        "reverseMeaning": "Thiếu độc lập, phụ thuộc, mất mát tài chính",
+        "description": "Nine of Pentacles biểu thị sự độc lập, thịnh vượng và tự hào. Lá bài này đại diện cho thành công và cảm giác tự hào về thành tựu của mình.",
+        "src": "/nine-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 73,
+        "name": "Ten of Pentacles",
+        "mainMeaning": "Thịnh vượng gia đình, sự ổn định, di sản, thành tựu",
+        "reverseMeaning": "Mất mát, thiếu ổn định, xung đột gia đình",
+        "description": "Ten of Pentacles biểu thị thịnh vượng gia đình, sự ổn định và di sản. Lá bài này đại diện cho thành tựu và sự ổn định trong gia đình.",
+        "src": "/ten-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 74,
+        "name": "Page of Pentacles",
+        "mainMeaning": "Học hỏi, cơ hội, tiềm năng, sự tò mò",
+        "reverseMeaning": "Thiếu sự học hỏi, bỏ lỡ cơ hội, thiếu tò mò",
+        "description": "Page of Pentacles biểu thị học hỏi, cơ hội và tiềm năng. Lá bài này đại diện cho sự tò mò và khám phá.",
+        "src": "/page-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 75,
+        "name": "Knight of Pentacles",
+        "mainMeaning": "Kiên định, chăm chỉ, sự ổn định, sự đáng tin cậy",
+        "reverseMeaning": "Lười biếng, thiếu kiên định, không đáng tin cậy",
+        "description": "Knight of Pentacles biểu thị kiên định, chăm chỉ và sự ổn định. Lá bài này đại diện cho sự đáng tin cậy và sự ổn định trong công việc.",
+        "src": "/knight-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 76,
+        "name": "Queen of Pentacles",
+        "mainMeaning": "Chăm sóc, sự thịnh vượng, sự ổn định, lòng nhân ái",
+        "reverseMeaning": "Thiếu chăm sóc, sự không ổn định, tiêu xài quá mức",
+        "description": "Queen of Pentacles biểu thị chăm sóc, sự thịnh vượng và sự ổn định. Lá bài này đại diện cho lòng nhân ái và sự chăm sóc trong gia đình.",
+        "src": "/queen-of-pentacles.png",
+        "type": "pentacles"
+    },
+    {
+        "id": 77,
+        "name": "King of Pentacles",
+        "mainMeaning": "Thịnh vượng, sự lãnh đạo, tài chính vững vàng, sự đáng tin cậy",
+        "reverseMeaning": "Thiếu thịnh vượng, lạm quyền, không đáng tin cậy",
+        "description": "King of Pentacles biểu thị thịnh vượng, sự lãnh đạo và tài chính vững vàng. Lá bài này đại diện cho sự đáng tin cậy và khả năng lãnh đạo.",
+        "src": "/king-of-pentacles.png",
+        "type": "pentacles"
+    }
+]

@@ -1,0 +1,262 @@
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-section {
+    padding-top: 3rem;
+}
+
+.card-title {
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.card-subtitle {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.flipping-cards {
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+}
+
+
+/* Profile card front */
+
+.profile-card {
+    min-height: 615px;
+    position: relative;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+}
+
+.profile-card-face {
+    color: #FFFFFF;
+    min-width: 360px;
+    height: 100%;
+    margin: 30px auto;
+    border-radius: 10px;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.profile-card-back {
+    transform: rotateY(180deg);
+}
+
+.profile-card:hover .profile-card-front {
+    transform: rotateY(-180deg);
+}
+
+.profile-card:hover .profile-card-back {
+    transform: rotateY(0);
+}
+
+/* Profile card front */
+
+.profile-picture {
+    width: 320px;
+    max-height: 210px;
+    border-radius: 10px 10px 0 0;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 2.2rem;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.role {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #F3BF99;
+    margin: 0px
+}
+
+.expertise-section {
+    padding: 0 3.5rem 2rem;
+}
+
+.expertise-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.expertise {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+
+/* Profile card back */
+
+.about-section {
+    padding: 0 4rem;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #ffff;
+    padding-top: 3rem;
+    padding-bottom: 0.8rem;
+}
+
+.about-text {
+    font-style: normal;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffff;
+}
+
+.interests-section {
+    padding: 0 3.5rem 2rem;
+}
+
+.interests-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.interest {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    width: 320px;
+    height: 55px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 18px 72px 22px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #918E9B;
+    align-items: center;
+}
+
+.social-icon:hover {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .card-subtitle {
+        font-size: 1.4rem;
+        padding: 0 10rem;
+    }
+
+    .flipping-cards {
+        margin-bottom: 5rem;
+        width: 100%;
+        max-width: 700px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 60px;
+        grid-row-gap: 30px;
+    }
+
+    .third-profile-card {
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .card-title {
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card-subtitle {
+        font-size: 1.4rem;
+        padding: 0 6rem;
+    }
+
+    .flipping-cards {
+        margin-bottom: 5rem;
+        width: 100%;
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 60px;
+        grid-row-gap: 30px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .card-title {
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .card-subtitle {
+        font-size: 1.2rem;
+        padding: 0 3rem;
+    }
+
+    .flipping-cards {
+        margin-bottom: 5rem;
+        width: 100%;
+        max-width: 320px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 60px;
+        grid-row-gap: 30px;
+    }
+
+}
