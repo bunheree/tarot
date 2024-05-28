@@ -22,9 +22,9 @@ const TarotCard = ({ card, handlePickCard }: CardProps) => {
     const src = S3 + cardLocation[cardType] + card.src
 
     return (
-        <div className="w-24" onClick={() => handlePickCard(card.id)}>
+        <div className="w-24 " onClick={() => handlePickCard(card.id)}>
             <Image
-                className="object-fit"
+                className="object-fit rounded-lg border border-white cursor-pointer"
                 src={S3 + '/Default/default.png'}
                 alt="Tarot card"
                 width={131}

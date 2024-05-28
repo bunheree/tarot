@@ -19,9 +19,8 @@ const cardLocation: Record<CardType, string> = {
 
 const defaultCard = S3 + '/Default/default.png'
 
-const DefaultCard = ({ cards, pickCard }: CardProps) => {
-    
-    
+const DefaultCard = ({ cards, pickCard = [] }: CardProps) => {
+
     return (
         <div className="card-section w-full">
 

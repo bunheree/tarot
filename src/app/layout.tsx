@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Reddit_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const reddit_mono = Reddit_Mono({
+  subsets: ["vietnamese"],
+});
 
 export const metadata: Metadata = {
   title: "Bunhere | Tarot",
@@ -15,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={reddit_mono.className}>
+      <body>{children}</body>
     </html>
   );
 }

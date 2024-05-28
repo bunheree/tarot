@@ -28,16 +28,14 @@ export default function Home() {
     if (pickCards.length > 2) { // Pick enough 3 cards
       setPrompt(`With 3 cards: ${pickCards[0]}, ${pickCards[1]}, and ${pickCards[2]}. Next, look up the corresponding tarot cards and their meanings. Finally, put together an overall reading for me based on the three cards. Answer in Vietnamese`)
     }
-  }, [pickCards])
+  }, [pickCards, cards])
 
   const handlePickCard = (cardId: number) => {
-    const pick: number[] = pickCards
-    if (pick.length > 2) {
+    if (pickCards.length > 2) {
       console.log('You only can choose 3 cards')
-    } else {
-      pick.push(cardId)
-      setPickCards(pick)
+      return
     }
+    setPickCards([...pickCards, cardId])
   }
 
   const handleResetPick = () => {
@@ -60,7 +58,7 @@ export default function Home() {
   }, [timer])
 
   const handleReadCards = async () => {
-    if (prompt == "") {
+    if (prompt === "") {
       alert('Vui lòng chọn đủ 3 lá bài!')
       return
     }
@@ -94,24 +92,21 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {isLoading &&
-        <p>loading...</p>
+        <p className="pb-8">loading...</p>
       }
-      <button disabled={isLoading} onClick={handleResetPick}>Reset</button>
+      <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={handleResetPick}>Reset</button>
       {result &&
         <p>{result}</p>
       }
-      <div className="flex relative">
-        <div className="absolute left-0 top-0">
-          <div className="relative">
-            {cards && cards.filter((card) => !pickCards.includes(card.id)).map((card: Card) => (
-              <div key={card.id} className="absolute hover:-top-4" style={{ left: `${card.id * 30}px`, zIndex: `${card.id + 1}` }}>
-                <TarotCard card={card} handlePickCard={handlePickCard} />
-              </div>
-            ))}
+      <div className="relative flex flex-wrap">
+        {cards && cards.filter((card) => !pickCards.includes(card.id)).map((card: Card) => (
+          <div key={card.id} className="relative -ml-20 hover:-mt-4">
+            <TarotCard card={card} handlePickCard={handlePickCard} />
           </div>
-        </div>
+        ))}
       </div>
-      <button disabled={isLoading} onClick={() => handleReadCards()}>Read Cards</button>
+      <button className="bg-black text-white p-4 text-center border hover:bg-white hover:text-black" disabled={isLoading} onClick={() => handleReadCards()}>Read Cards</button>
+
       <DefaultCard cards={cards} pickCard={pickCards} />
     </main>
   )
