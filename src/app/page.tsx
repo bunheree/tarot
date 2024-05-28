@@ -96,7 +96,7 @@ export default function Home() {
       }
       <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={handleResetPick}>Reset</button>
       {result &&
-        <p>{result}</p>
+        <p className="pb-8">{result}</p>
       }
       <div className="relative flex flex-wrap">
         {cards && cards.filter((card) => !pickCards.includes(card.id)).map((card: Card) => (
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
         ))}
       </div>
-      <button className="bg-black text-white p-4 text-center border hover:bg-white hover:text-black" disabled={isLoading} onClick={() => handleReadCards()}>Read Cards</button>
+      <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={() => handleReadCards()}>Read Cards</button>
 
       <DefaultCard cards={cards} pickCard={pickCards} />
     </main>
