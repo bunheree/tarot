@@ -1,16 +1,20 @@
 'use client'
 import { useEffect, useState } from "react"
+
 import tarotCards from "@/data/cards.json"
-import TarotCard from "@/components/TarotCard"
 import { shuffleArray } from "@/common/shuffle"
 import { Card } from "@/types/card"
+
+import TarotCard from "@/components/TarotCard"
 import DefaultCard from "@/components/DefaultCard"
+
 import { GoogleGenerativeAI } from "@google/generative-ai"
 
 const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY || ''
 const MAX_CALLS_PER_MINUTE = 10
 
-export default function Home() {
+const Home = () => {
+
   const rootCards: Card[] = tarotCards
   const [cards, setCards] = useState<Card[]>(rootCards)
   const [pickCards, setPickCards] = useState<number[]>([])
@@ -26,9 +30,9 @@ export default function Home() {
 
   useEffect(() => {
     if (pickCards.length > 2) { // Pick enough 3 cards
-      setPrompt(`With 3 cards: ${pickCards[0]}, ${pickCards[1]}, and ${pickCards[2]}. Next, look up the corresponding tarot cards and their meanings. Finally, put together an overall reading for me based on the three cards. Answer in Vietnamese`)
+      setPrompt(`With 3 cards: ${pickCards[0]} - ${rootCards[pickCards[0]]['name']}, ${pickCards[1]} - ${rootCards[pickCards[1]]['name']}, and ${pickCards[2]} - ${rootCards[pickCards[2]]['name']}. Next, look up the corresponding tarot cards and their meanings. Finally, put together an overall reading for me based on the three cards. Answer in Vietnamese`)
     }
-  }, [pickCards, cards])
+  }, [pickCards, cards, rootCards])
 
   const handlePickCard = (cardId: number) => {
     if (pickCards.length > 2) {
@@ -59,12 +63,12 @@ export default function Home() {
 
   const handleReadCards = async () => {
     if (prompt === "") {
-      alert('Vui lòng chọn đủ 3 lá bài!')
+      alert(('Please choose 3 cards!'))
       return
     }
 
     if (callCount >= MAX_CALLS_PER_MINUTE) {
-      alert('Hệ thống quá tải! Vui lòng chờ 1 phút sau đó thử lại.')
+      alert(('System overload! Please wait 1 minute then try again.'))
       return
     }
 
@@ -92,7 +96,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {isLoading &&
-        <p className="pb-8">loading...</p>
+        <p className="pb-8">{('loading...')}</p>
       }
       <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={handleResetPick}>Reset</button>
       {result &&
@@ -111,3 +115,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default Home
