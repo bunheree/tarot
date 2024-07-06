@@ -8,8 +8,6 @@ runConfig:
 
 # Environment variables and secrets
 env:
-  - variable: NEXT_PUBLIC_S3_ENDPOINT
-    secret: https://bunhere.s3-ap-southeast-2.amazonaws.com/tarot
 
   - variable: NEXT_PUBLIC_GEMINI_API_KEY
     secret: myApiKeySecret
