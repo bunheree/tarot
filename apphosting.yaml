@@ -1,0 +1,18 @@
+# Settings for Cloud Run
+runConfig:
+  minInstances: 2
+  maxInstances: 100
+  concurrency: 100
+  cpu: 1
+  memoryMiB: 1024
+
+# Environment variables and secrets
+env:
+  - variable: NEXT_PUBLIC_S3_ENDPOINT
+    secret: https://bunhere.s3-ap-southeast-2.amazonaws.com/tarot
+
+  - variable: NEXT_PUBLIC_GEMINI_API_KEY
+    secret: myApiKeySecret
+
+
+ 

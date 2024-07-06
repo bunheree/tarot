@@ -1,7 +1,8 @@
 import Image from "next/image"
 import { Card, CardType } from "@/types/card"
 
-const S3 = process.env.NEXT_PUBLIC_S3_ENDPOINT || '/'
+// const S3 = process.env.NEXT_PUBLIC_S3_ENDPOINT || '/'
+const S3 = 'https://bunhere.s3-ap-southeast-2.amazonaws.com/tarot'
 
 type CardProps = {
     card: Card,
