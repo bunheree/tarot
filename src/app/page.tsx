@@ -34,6 +34,23 @@ const Home = () => {
     }
   }, [pickCards, cards, rootCards])
 
+  const handleSendPromptToGemini = async (prompt: string) => {
+    setIsLoading(true);
+    try {
+      const genAI = new GoogleGenerativeAI(API_KEY)
+      const model = genAI.getGenerativeModel({ model: "gemini-pro" })
+
+      const result = await model.generateContent(prompt)
+      const response = result.response
+      const text = response.text()
+
+      setResult(text)
+    } catch (error) {
+      setResult('Failed to fetch response.')
+    }
+    setIsLoading(false)
+  }
+
   const handlePickCard = (cardId: number) => {
     if (pickCards.length > 2) {
       console.log('You only can choose 3 cards')
@@ -76,32 +93,10 @@ const Home = () => {
     await handleSendPromptToGemini(prompt)
   }
 
-  const handleSendPromptToGemini = async (prompt: string) => {
-    setIsLoading(true);
-    try {
-      const genAI = new GoogleGenerativeAI(API_KEY)
-      const model = genAI.getGenerativeModel({ model: "gemini-pro" })
-
-      const result = await model.generateContent(prompt)
-      const response = result.response
-      const text = response.text()
-
-      setResult(text)
-    } catch (error) {
-      setResult('Failed to fetch response.')
-    }
-    setIsLoading(false)
-  }
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      {isLoading &&
-        <p className="pb-8">{('loading...')}</p>
-      }
       <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={handleResetPick}>Reset</button>
-      {result &&
-        <p className="pb-8">{result}</p>
-      }
+
       <div className="relative flex flex-wrap">
         {cards && cards.filter((card) => !pickCards.includes(card.id)).map((card: Card) => (
           <div key={card.id} className="relative -ml-20 hover:-mt-4">
@@ -110,7 +105,12 @@ const Home = () => {
         ))}
       </div>
       <button className={`bg-black text-white p-4 text-center border hover:bg-white hover:text-black ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`} disabled={isLoading} onClick={() => handleReadCards()}>Read Cards</button>
-
+      {isLoading &&
+        <p className="py-8">{('loading...')}</p>
+      }
+      {result &&
+        <p className="bg-white p-8 my-4 rounded-lg">{result}</p>
+      }
       <DefaultCard cards={cards} pickCard={pickCards} />
     </main>
   )

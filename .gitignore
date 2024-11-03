@@ -31,6 +31,8 @@ yarn-error.log*
 # vercel
 .vercel
 
+*-lock.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
@@ -40,4 +42,3 @@ openai.js
 /draft
 /src/openai
 /src/lib
-package-lock.json

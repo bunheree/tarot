@@ -59,6 +59,8 @@ a {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
+
+    align-content: space-around;
 }
 
 .profile-card-back {

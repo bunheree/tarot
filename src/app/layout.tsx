@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Reddit_Mono } from "next/font/google";
-import "./globals.css";
+import "../css/globals.css";
 
 const reddit_mono = Reddit_Mono({
-  subsets: ["vietnamese"],
+  subsets: ["vietnamese", "latin"],
 });
 
 export const metadata: Metadata = {

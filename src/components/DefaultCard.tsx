@@ -18,7 +18,8 @@ const cardLocation: Record<CardType, string> = {
     'pentacles': '/Pentacles',
 }
 
-const defaultCard = S3 + '/Default/default.png'
+const defaultCard = '/images/default.png' //S3 + '/Default/default.png'
+const default1Card = '/images/default1.png' //S3 + '/Default/default.png'
 
 const DefaultCard = ({ cards, pickCard = [] }: CardProps) => {
 
@@ -29,11 +30,17 @@ const DefaultCard = ({ cards, pickCard = [] }: CardProps) => {
 
                 {pickCard && pickCard?.length > 0 &&
                     <div className="profile-card first-profile-card object-cover">
-                        <div className="profile-card-front profile-card-face h-full" style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[0]].type as CardType] + cards[pickCard[0]].src})` }}>
+                        <div className="profile-card-front profile-card-face h-full"
+                            // style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[0]].type as CardType] + cards[pickCard[0]].src})` }}
+                            style={{ backgroundImage: `url(${default1Card})` }}
+                        >
                             <h2 className="name">{cards[pickCard[0]]?.name}</h2>
                             <h3 className="role">{cards[pickCard[0]].type}</h3>
                         </div>
-                        <div className="profile-card-back profile-card-face" style={{ backgroundImage: `url(${defaultCard})` }}>
+                        <div className="profile-card-back profile-card-face"
+                            // style={{ backgroundImage: `url(${defaultCard})` }}
+                            style={{ backgroundColor: "#323232" }}
+                        >
                             <div className="p-4">
                                 <p className="pb-4">
                                     <span className="font-bold">Main Meaning: </span>
@@ -54,11 +61,17 @@ const DefaultCard = ({ cards, pickCard = [] }: CardProps) => {
 
                 {pickCard && pickCard?.length > 1 &&
                     <div className="profile-card second-profile-card">
-                        <div className="profile-card-front profile-card-face h-full" style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[1]].type as CardType] + cards[pickCard[1]].src})` }}>
+                        <div className="profile-card-front profile-card-face h-full"
+                            // style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[1]].type as CardType] + cards[pickCard[1]].src})` }}
+                            style={{ backgroundImage: `url(${default1Card})` }}
+                        >
                             <h2 className="name">{cards[pickCard[1]]?.name}</h2>
                             <h3 className="role">{cards[pickCard[1]].type}</h3>
                         </div>
-                        <div className="profile-card-back profile-card-face" style={{ backgroundImage: `url(${defaultCard})` }}>
+                        <div className="profile-card-back profile-card-face"
+                            // style={{ backgroundImage: `url(${defaultCard})` }}
+                            style={{ backgroundColor: "#323232" }}
+                        >
                             <div className="p-4">
                                 <p className="pb-4">
                                     <span className="font-bold">Main Meaning: </span>
@@ -79,11 +92,17 @@ const DefaultCard = ({ cards, pickCard = [] }: CardProps) => {
 
                 {pickCard && pickCard?.length > 2 &&
                     <div className="profile-card third-profile-card">
-                        <div className="profile-card-front profile-card-face h-full" style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[2]].type as CardType] + cards[pickCard[2]].src})` }}>
+                        <div className="profile-card-front profile-card-face h-full"
+                            // style={{ backgroundImage: `url(${S3 + cardLocation[cards[pickCard[2]].type as CardType] + cards[pickCard[2]].src})` }}
+                            style={{ backgroundImage: `url(${default1Card})` }}
+                        >
                             <h2 className="name">{cards[pickCard[2]]?.name}</h2>
                             <h3 className="role">{cards[pickCard[2]].type}</h3>
                         </div>
-                        <div className="profile-card-back profile-card-face" style={{ backgroundImage: `url(${defaultCard})` }}>
+                        <div className="profile-card-back profile-card-face"
+                            // style={{ backgroundImage: `url(${defaultCard})` }}
+                            style={{ backgroundColor: "#323232" }}
+                        >
                             <div className="p-4">
                                 <p className="pb-4">
                                     <span className="font-bold">Main Meaning: </span>
